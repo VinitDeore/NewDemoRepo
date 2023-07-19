@@ -1,0 +1,131 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "ExampleLogin",
+    "line": 3,
+    "description": "",
+    "id": "ExampleLogin",
+    "tags": [],
+    "uri": "Cucumber/ExampleLogin",
+    "testSuiteName": "Cucumber",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://qas.qmetry.com/bank",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "ExampleLogin",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 3,
+        "name": "ExampleLogin",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://qas.qmetry.com/bank",
+            "match": {
+              "location": "ExampleLogin/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5891000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "clear text.txtusername",
+            "match": {
+              "location": "ExampleLogin/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "sendKeys Bob into text.txtusername",
+            "match": {
+              "location": "ExampleLogin/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "clear password.txtpassword",
+            "match": {
+              "location": "ExampleLogin/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys ****** into password.txtpassword",
+            "match": {
+              "location": "ExampleLogin/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 830000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

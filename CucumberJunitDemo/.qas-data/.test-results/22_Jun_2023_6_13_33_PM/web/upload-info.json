@@ -1,0 +1,181 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "ExampleLogin",
+    "line": 3,
+    "description": "",
+    "id": "ExampleLogin",
+    "tags": [],
+    "uri": "Cucumber/ExampleLogin",
+    "testSuiteName": "Cucumber",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://qas.qmetry.com/bank",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "ExampleLogin",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 3,
+        "name": "ExampleLogin",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Failed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://qas.qmetry.com/bank",
+            "match": {
+              "location": "ExampleLogin/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "clear text.txtusername",
+            "match": {
+              "location": "ExampleLogin/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "sendKeys Bob into text.txtusername",
+            "match": {
+              "location": "ExampleLogin/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "clear password.txtpassword",
+            "match": {
+              "location": "ExampleLogin/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 630000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys ****** into password.txtpassword",
+            "match": {
+              "location": "ExampleLogin/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "Drag And Drop number.enter.amount.for.debit xpath=//div[2]/div/input",
+            "match": {
+              "location": "ExampleLogin/51"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10383000000,
+              "error_message": "Name: StaleElementReferenceError\r\nMessage: stale element reference: stale element not found\n  (Session info: chrome=114.0.5735.134)\r\nStacktrace: StaleElementReferenceError: stale element reference: stale element not found\n  (Session info: chrome=114.0.5735.134)\n\tat Object.throwDecodedError (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n\tat parseHttpResponse (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:565:13)\n\tat Executor.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:491:26)\n\tat runMicrotasks (<anonymous>)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\webdriver.js:700:17)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "clear number.enter.amount.for.debit_1",
+            "match": {
+              "location": "ExampleLogin/61"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 8,
+            "name": "sendKeys 1000 into number.enter.amount.for.debit_1",
+            "match": {
+              "location": "ExampleLogin/71"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "Drag And Drop div.qmetrybankloginusernameusernameisrequiredpasswordpasswordisrequiredlogin xpath=//div/div",
+            "match": {
+              "location": "ExampleLogin/81"
+            },
+            "result": {
+              "status": "notrun"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

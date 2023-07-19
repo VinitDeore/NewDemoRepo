@@ -1,0 +1,14 @@
+{
+  "reports": [
+    {
+      "name": "Cucumber",
+      "dir": ".qas-data/.test-results/22_Jun_2023_6_14_15_PM",
+      "startTime": 1687437855218
+    },
+    {
+      "name": "Cucumber",
+      "dir": ".qas-data/.test-results/22_Jun_2023_6_13_33_PM",
+      "startTime": 1687437813405
+    }
+  ]
+}

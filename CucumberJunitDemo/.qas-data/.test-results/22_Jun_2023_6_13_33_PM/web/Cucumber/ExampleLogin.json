@@ -1,0 +1,76 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://qas.qmetry.com/bank",
+      "type": "TestStepPass",
+      "duration": 6357,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear text.txtusername",
+      "type": "TestStepPass",
+      "duration": 797,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys Bob into text.txtusername",
+      "type": "TestStepPass",
+      "duration": 894,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And clear password.txtpassword",
+      "type": "TestStepPass",
+      "duration": 630,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys ****** into password.txtpassword",
+      "type": "TestStepPass",
+      "duration": 634,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Drag And Drop number.enter.amount.for.debit xpath=//div[2]/div/input",
+      "type": "TestStepFail",
+      "duration": 10383,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Name: StaleElementReferenceError\r\nMessage: stale element reference: stale element not found\n  (Session info: chrome=114.0.5735.134)\r\nStacktrace: StaleElementReferenceError: stale element reference: stale element not found\n  (Session info: chrome=114.0.5735.134)\n\tat Object.throwDecodedError (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n\tat parseHttpResponse (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:565:13)\n\tat Executor.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\http.js:491:26)\n\tat runMicrotasks (<anonymous>)\n\tat processTicksAndRejections (internal/process/task_queues.js:85:5)\n\tat async thenableWebDriverProxy.execute (c:\\Program Files\\QMetry Automation Studio\\resources\\app\\extensions\\node_modules\\selenium-webdriver\\lib\\webdriver.js:700:17)",
+          "type": "fail",
+          "duration": 10383,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And clear number.enter.amount.for.debit_1",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And sendKeys 1000 into number.enter.amount.for.debit_1",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And Drag And Drop div.qmetrybankloginusernameusernameisrequiredpasswordpasswordisrequiredlogin xpath=//div/div",
+      "type": "TestStep",
+      "duration": null,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}
